@@ -36,7 +36,7 @@ kubectl apply -f nginx-deploy.yaml
 
 
 ## Comprobar el estado del despliegue
-K9s
+k9s
 
 kubectl get deploy web-nginx
 
