@@ -22,7 +22,7 @@ kubectl get nodes -o wide
 ## Crear cluster de tres nodos (1 master + 2 worker)
 kind delete cluster --name mi-cluster
 
-nano cluster-2nodos.yaml
+nano cluster-3nodos.yaml
 
 kind create cluster --name mi-cluster --config cluster-3nodos.yaml
 
